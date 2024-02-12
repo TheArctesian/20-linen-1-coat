@@ -6,7 +6,7 @@ df = pd.read_csv('updated_dataset.csv')
 
 plt.figure(figsize=(10, 5))
 
-plt.plot(df['Year'], df['PriceLinen'], marker='o', label='Original Price of Linen')
+plt.plot(df['Year'], df['PriceLinen'], marker='o', label='Price of Linen')
 
 plt.plot(df['Year'], df['PriceCoat'], marker='o', label='Price of Coat')
 
@@ -19,4 +19,4 @@ plt.ylabel('Price')
 plt.legend()
 
 plt.show()
-plt.savefig('price_of_linen_over_years.png', dpi=300, bbox_inches='tight')
+#plt.savefig('price_of_linen_over_years.png')
