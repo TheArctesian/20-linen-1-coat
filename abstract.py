@@ -10,4 +10,5 @@ for row in data[1:]:
     dif += float(row[2]) - float(row[3])
     count += 1
 
-print(dif)
+print(dif/count) 
+# 23.125913978494623
